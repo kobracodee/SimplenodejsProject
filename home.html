@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            font-family: Courier, monospace;
+            text-align: center;
+        }
+        #tasks{
+            text-align: center;   /* Center Align */
+            height: 100px;
+            padding: 20px;
+        }
+        input{
+            width: 215px;
+            height: 25px;
+            border: 3px solid;
+        }
+        #submit-btn{
+            margin-top: 20px;
+            width: 220px;
+            border-radius: 0%; 
+            font-family: Courier, monospace;
+        }
+        /* #container{
+            
+        } */
+    </style>
+    <title>Simple nodejs Project</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Task Manager</h1>
+        <div id="tasks">
+            <input type='text' class="input-f" required><br>
+            <button type="submit" id="submit-btn">Submit</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
